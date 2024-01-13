@@ -1,1 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    max-width:100% ;
+    min-height: fit-content;
+    background-color: #e5547329;
+}
+.container{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.text{
+    max-width: 708px;
+    height: fit-content;
+    flex-basis: 50%;
+    
+}
+.text h2{
+    font-family: 'lato',sans-serif;
+    font-size: 60px;
+    color: #272727;
+    font-weight: 900;
+    line-height: 1.1em;
+    margin: 20px 0;
+}
+.text p{
+    font-family: 'lato',sans-serif;
+    font-size: 16px;
+    color: #27272799;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 10px 0;
+    text-align: left;
+    width: 90%;
+}
+.text button{
+    font-size:20px ;
+    font-family: 'lato',sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    background: #E55473;
+    padding:16px 43px ;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+}
+.hero_img{
+    margin-left: 5%;
+    
+
+}
+.hero_img img{
+    width: 90%;
+}

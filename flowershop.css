@@ -6,7 +6,7 @@
 }
 .hero{
     max-width:100% ;
-    min-height: fit-content;
+    min-height: 100vh;
     background-color: #e5547329;
 }
 .container{
@@ -19,7 +19,6 @@
 }
 .text{
     max-width: 708px;
-    height: fit-content;
     flex-basis: 50%;
     
 }
@@ -58,5 +57,5 @@
 
 }
 .hero_img img{
-    width: 90%;
+    width: 100%;
 }
